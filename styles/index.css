@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    font-family: Michroma, serif;
+    background: radial-gradient(#1d3bcd 0%, #1e182a 100%);
+}
+
+p {
+    color: aquamarine;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(124, 124, 124);
+}
+
+.navbar-brand img {
+    width: 45px;
+}
+
+.navbar-toggler {
+    background-color: azure;
+}
+
+.row img {
+    width: 100%;
+    height: 220px;
+}
+
+.text {
+    color: rgb(187, 235, 219);
+    background: radial-gradient(#415ce0 0%, #030203 100%);
+}
+
+.card {
+    background: radial-gradient(#415ce0 0%, #030203 100%);
+    color: antiquewhite;
+}
+
+.card a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.row1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-text,
+.footer-text {
+    color: rgb(151, 204, 248);
+    margin: auto auto ;
+}
+
+footer,
+.btn-outline-primary {
+    background: radial-gradient(#415ce0 0%, #030203 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
